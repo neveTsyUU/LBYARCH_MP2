@@ -59,8 +59,16 @@ C and ASM Average Time without Debugging:
 2. Whether the user is able to debug the code or not, they have relatively same amount of average runnning time. But during the runs, not debugging the code had a faster average time.
 3. Both C and the ASM code have the same running time despite both have different functions. Maybe the code in assembly code is very very similar to the C version...  
 
+## Where is the Code?
+It is on x86_64_daxpy where main.c is the main C function and daxpy.asm is the ASM file
 
 ## Screenshots
+The final version of sanity check used. This involves computing things manually and comparing it to the results of ASM
+![SANITY CHECKING](LBYARCHSS/sanity_check.png)
 
+The early version of sanity check used. This involves computing things manually in C. This is a test of the random number generator here.
+![OLD SANITY CHECKING](LBYARCHSS/very_first_sc.png)
 
+A successful run!
+![SUCCESS](LBYARCHSS/successrun.png)
 
