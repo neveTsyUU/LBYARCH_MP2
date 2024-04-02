@@ -19,8 +19,9 @@ void daxpy_c(int n, double a, double x[], double y[], double z[]) {
 
     clock_end = clock();
 
-    printf("First 10 X values: %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f \n", x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8], x[9]);
-    printf("First 10 Y values: %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f \n", y[0], y[1], y[2], y[3], y[4], y[5], y[6], y[7], y[8], y[9]);
+    //The sanity checker used. Feel free to remove the comment mark if you want to test it out. 
+    //printf("First 10 X values: %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f \n", x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8], x[9]);
+    //printf("First 10 Y values: %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f \n", y[0], y[1], y[2], y[3], y[4], y[5], y[6], y[7], y[8], y[9]);
     printf("First 10 results: %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f \n", z[0], z[1], z[2], z[3], z[4], z[5], z[6], z[7], z[8], z[9]);
     running_time = ((double)(clock_end - clock_start)) / CLOCKS_PER_SEC;
     printf("Running Time to Process in C: %f sec.\n\n", running_time);
