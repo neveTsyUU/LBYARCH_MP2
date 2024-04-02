@@ -1,0 +1,2 @@
+^C:\USERS\USER\SOURCE\REPOS\X86_64_DAXPY\X86_64_DAXPY\DAXPY.ASM
+c:\sasm\nasm\nasm -f win64 daxpy.asm
